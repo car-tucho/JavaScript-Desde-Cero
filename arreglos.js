@@ -58,3 +58,4 @@ let suma = 0; let numero = 1; while (suma < 5) { suma += numero; numero++; } con
 for (let i = 0; i < 3; i++) { console.log("Hola"); }
 
 let suma1 = 0; for (let i = 1; i <= 5; i++) { suma1 += i; } console.log(suma1);
+
