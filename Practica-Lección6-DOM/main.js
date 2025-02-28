@@ -4,10 +4,10 @@ function iniciarApp(){
     const comentarioInput = document.getElementById('comentario');
     const agregarButton = document.getElementById('agregar');
     const listaComentarios = document.getElementById('lista-comentarios');
-/*getElementByd*/
+
     let comentarios = [];
 
-    agregarButton.addEventListener('click',function(){
+    agregarButton.addEventListener('click', function(){
         agregarComentario(comentarios, comentarioInput, listaComentarios);
     });
 
@@ -16,10 +16,9 @@ function iniciarApp(){
             agregarComentario(comentarios, comentarioInput, listaComentarios);
         }
     });
-
 }
 
-function agregarComentario(comentarios, comentarioInput, listaComentarios ){
+function agregarComentario(comentarios, comentarioInput, listaComentarios){
     const valorComentario = comentarioInput.value.trim();
     if(valorComentario){
         const nuevoComentario = {
@@ -28,8 +27,8 @@ function agregarComentario(comentarios, comentarioInput, listaComentarios ){
         comentarios.push(nuevoComentario);
         mostrarComentarios(nuevoComentario, listaComentarios);
         comentarioInput.value = '';
-        }
     }
+}
 
 function mostrarComentarios(comentario, listaComentarios){
     const nuevoItem = document.createElement('li');
