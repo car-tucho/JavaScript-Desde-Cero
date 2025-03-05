@@ -1,0 +1,83 @@
+
+body {
+    font-family: Source Code Pro, Arial, sans-serif;
+    background-color: #2e2e2e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.generator {
+    background: #838486;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    width: 300px;
+}
+
+.password-container h1 {
+    font-size: 20px;
+    margin-bottom: 15px;
+    color: #97e8bb;
+    
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    
+}
+
+label {
+    font-size: 14px;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    
+}
+
+
+
+input[type="range"] {
+    width: 100%;
+    color: #53dd91;
+}
+
+.range-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.range-container h1 {
+    font-size: 16px;
+    color: #97e8bb;
+}
+
+.options {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    text-align: left;
+}
+
+button {
+    background: #97e8bb;
+    color: rgb(0, 0, 0);
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background 0.3s;
+    border-radius: 20px;
+}
+
+button:hover {
+    background: #0056b3;
+}

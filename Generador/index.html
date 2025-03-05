@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <style>
+    @import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@400;600&display=swap');
+    </style>
+    <title>Document</title>
+</head>
+<body>
+    <div class="generator">
+        <div class="password-container">
+            <h1>Generador de Contraseñas</h1>
+        </div>
+
+        <form>
+            <label for="input-password-length">Largo de la contraseña</label>
+            <div class="range-container">
+            <input type="range" min="1" max="20" id ="input-password-length" value="8">
+            <h1>10</h1>
+
+            </div>
+            <div class="options">
+            <label>
+                <input type="checkbox" id="upppercase">Mayúsculas
+            </label>
+            <label>
+                <input type="checkbox" id="lowercase">Minúsculas
+            </label>
+            <label>
+                <input type="checkbox" id="numbers">Números
+            </label>
+            <label>
+                <input type="checkbox" id="symbols">Simbolos
+            </label>
+            </div>
+
+            <button type="submit">Generar Contraseña</button>
+
+
+        </form>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
