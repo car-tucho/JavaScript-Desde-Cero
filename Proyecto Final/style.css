@@ -36,6 +36,7 @@ input:focus {
 }
 
 button {
+    font-family: Lexend, Arial, sans-serif;
     padding: 10px 15px;
     background-color: #57fab9;
     color: white;
@@ -48,6 +49,7 @@ button {
 button:hover {
     background-color: #0056b3;
 }
+
 
 #lista-comentarios {
     list-style: none;
@@ -74,4 +76,27 @@ li small {
     color: gray;
     font-size: 12px;
     margin-top: 5px;
+}
+
+li button {
+    background-color: #ff4759; ;
+    color: white; 
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    margin-top: 5px;
+    transition: background 0.3s ease;
+}
+
+li button:hover {
+    background-color: #ab2634;
+}
+
+footer{
+    margin-top: 100px;
+    text-align: center;
+    font-size: 12px;
+    color: gray;
 }
